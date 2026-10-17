@@ -1,4 +1,3 @@
-
 export default function About() {
   return (
     <section
@@ -6,12 +5,11 @@ export default function About() {
       className="bg-[#0d0d0d] px-5 py-12 text-white sm:px-8 sm:py-16 lg:px-12"
     >
       <div className="mx-auto w-full max-w-7xl rounded-[32px] border border-white/[0.08] bg-gradient-to-br from-[#202020] to-[#111111] px-6 pb-10 pt-0 sm:px-10 sm:pb-12 lg:px-12">
-       
         <div className="mb-5 flex h-[90px] w-8 flex-col items-center">
-          <div className="h-12 w-[2px] bg-white/50" />
+          <div className="h-12 w-[2px] bg-gradient-to-b from-transparent to-sky-400" />
           <svg
             viewBox="0 0 40 40"
-            className="h-10 w-10 text-white/50"
+            className="h-10 w-10 text-sky-400"
             fill="none"
             stroke="currentColor"
             strokeWidth="1.8"
@@ -20,18 +18,16 @@ export default function About() {
           </svg>
         </div>
 
-        
         <h2 className="mb-6 text-2xl font-bold text-white sm:text-3xl">
           About Me
         </h2>
 
-        
         <div className="space-y-4 text-sm font-normal leading-7 text-white/70 sm:text-base sm:leading-8">
           <p>
             Hi, I'm Khalid Redoy, a passionate Frontend Developer who loves
-            turning ideas into modern, responsive, and user-friendly websites.
-            I enjoy building clean interfaces and creating smooth user
-            experiences using modern web technologies.
+            turning ideas into modern, responsive, and user-friendly websites. I
+            enjoy building clean interfaces and creating smooth user experiences
+            using modern web technologies.
           </p>
 
           <p>

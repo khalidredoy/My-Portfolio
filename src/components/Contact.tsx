@@ -22,7 +22,7 @@ export default function Contact() {
           </h2>
           <p className="mt-3 text-sm text-white/60 sm:text-base">
             Have a project in mind or want to collaborate? Feel free to reach
-            out!
+            out.
           </p>
         </div>
 
@@ -30,7 +30,7 @@ export default function Contact() {
           <div className="flex flex-col justify-between space-y-6">
             <div>
               <h3 className="text-2xl font-bold text-white">
-                Let’s talk about your next big idea!
+                Let’s talk about your next big idea.
               </h3>
               <p className="mt-4 text-sm leading-relaxed text-white/70 sm:text-base">
                 I’m currently open to freelance projects, full-time developer
